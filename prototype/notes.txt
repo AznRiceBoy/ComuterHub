@@ -1,10 +1,7 @@
 I don't think that we have the time to add everything in here at this point, so I put biggest changes to make at the top.
 
-MAJOR ISSUE: Clicking anywhere on the Make a Post page (offerrequest) brings you back to the feed. Right clicking the text box still allows you to type in it.
-
 Issues:
 Recent feed can be removed.
-Hamburger menu and options can be removed.
 Arrow to map should be on the right of each page where the hamburger menu slides out.
 
 Offers and Requests should have either different color text or different color backgrounds to distinguish them from each other on the post feed.
