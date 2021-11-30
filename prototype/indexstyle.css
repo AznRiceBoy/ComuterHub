@@ -25,6 +25,10 @@ button {
   display: flex;
   align-items: center;
 }
+.filt {
+  display: flex;
+  flex-direction: row;
+}
 
 .topbar-left {
   display: flex;
@@ -125,6 +129,13 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
+}
+.filterbut {
+  background-color: #888b8d;
+}
+
+.filterbut:focus {
+  background-color: #3b3b3b;
 }
 
 .line {
