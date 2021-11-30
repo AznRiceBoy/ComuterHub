@@ -1,7 +1,7 @@
 * {
   margin: 0;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 
 button {
   padding: 5px;
-  background-color: #888b8d;
+  background-color: #ab0c2f;
   margin: 20px;
 }
 
@@ -25,14 +25,14 @@ button {
 }
 
 .center {
-  text-align: center;
   margin-top: 10px;
+  text-align: center;
 }
 
 .topbar {
   width: 100%;
   height: 50px;
-  background-color: black;
+  background-color: #333333;
   display: flex;
   align-items: center;
 }
@@ -41,7 +41,8 @@ button {
   display: flex;
   flex: 0.2;
   align-items: center;
-  justify-content: center;
+  justify-content: left; /* We want the logo in the corner */
+  background-color: black;
 }
 
 .title {
@@ -67,6 +68,11 @@ button {
 .selection {
   background-color: #73808a;
   padding: 5px;
+}
+
+.selection-messages { /* This is for the messages button only */
+  background-color: #0076A5;
+  padding: 7px;
 }
 
 .column {
@@ -346,4 +352,9 @@ h3 {
 #description {
   margin-top: 20px;
   text-align: left;
+}
+
+h5 { /* This one is for "Current Courses" */
+  font-size: 20;
+  color: white;
 }
