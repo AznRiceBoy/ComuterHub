@@ -1,6 +1,8 @@
 I don't think that we have the time to add everything in here at this point, so I put biggest changes to make at the top.
 
+MAJOR ISSUE: Clicking anywhere on the Make a Post page (offerrequest) brings you back to the feed. Right clicking the text box still allows you to type in it.
 
+Issues:
 Recent feed can be removed.
 Hamburger menu and options can be removed.
 Arrow to map should be on the right of each page where the hamburger menu slides out.
@@ -17,9 +19,9 @@ We also cannot click on a post from the feed and send them a message as we had i
 
 
 Minor issues:
-The profile box on the Make a Post page (offerrequest.html) is slightly smaller than the other pages.
+The profile box on the Make a Post page (offerrequest) is slightly smaller than the other pages.
 
-On the Make a Post page (offerrequest.html), the boxes are awkwardly left-aligned. I don't know how to fix that.
+On the Make a Post page (offerrequest), the boxes are awkwardly left-aligned. I don't know how to fix that.
 
-On the Make a Post page (offerrequest.html), it says That we are on the "Make a Post" page right under the "Make a Post" button.
+On the Make a Post page (offerrequest), it says That we are on the "Make a Post" page right under the "Make a Post" button.
 Either we should remove the button on that page, or grey it out and keep the page title.
