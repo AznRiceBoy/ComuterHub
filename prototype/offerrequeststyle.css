@@ -14,6 +14,9 @@ button {
   background-color: #ab0c2f;
   margin: 20px;
 }
+.back {
+  background-color: #888b8d;
+}
 
 .topbutton {
   background-color: #ab0c2f;
@@ -24,6 +27,10 @@ button {
   font-weight: 700;
 }
 
+.adjust {
+  margin-right: 35vh;
+  color: black;
+}
 .center {
   margin-top: 10px;
   text-align: center;
@@ -70,8 +77,9 @@ button {
   padding: 5px;
 }
 
-.selection-messages { /* This is for the messages button only */
-  background-color: #0076A5;
+.selection-messages {
+  /* This is for the messages button only */
+  background-color: #0076a5;
   padding: 7px;
 }
 
@@ -114,130 +122,6 @@ h1 {
   justify-content: flex-end;
 }
 
-.line-container {
-  margin-right: 20px;
-  width: 24px;
-  height: 18px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-.line {
-  width: 100%;
-  height: 2px;
-  background-color: #ab0c2f;
-  border-radius: 20px;
-  transition: transform 1s ease, opacity 0.5s ease;
-  transform-origin: left;
-}
-
-.menu {
-  width: 200px;
-  height: calc(100vh - 50px);
-  background-color: black;
-  position: absolute;
-  top: 50px;
-  right: -250px;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  font-family: sans-serif;
-  transition: all 1s ease;
-}
-
-.menu-top {
-  flex: 0.1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu-search {
-  width: 100%;
-  height: 30px;
-  background-color: lightgray;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.search-icon {
-  color: #ab0c2f;
-}
-
-.menu-search input {
-  width: 75%;
-  border: none;
-  background-color: lightgray;
-  color: black;
-}
-
-.menu-search input:focus {
-  outline: none;
-}
-
-.menu-center {
-  flex: 0.8;
-}
-
-.menu-item {
-  margin-top: 10px;
-  cursor: pointer;
-  margin-bottom: 30px;
-}
-
-.menu-item span {
-  margin-left: 20px;
-  text-justify: left;
-  color: #0076a5;
-  font-weight: 700;
-}
-
-.menu-bottom {
-  flex: 0.1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.menu-bottom-user {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.menu-bottom-user span {
-  font-size: 14px;
-  color: white;
-}
-
-.menu img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 10px;
-}
-
-.menu.active {
-  transform: translateX(-250px);
-}
-
-.line-container.active .line-1 {
-  transform: rotate(45deg);
-}
-
-.line-container.active .line-2 {
-  opacity: 0;
-}
-
-.line-container.active .line-3 {
-  transform: rotate(-45deg);
-}
-
 .time {
   color: black;
 }
@@ -259,28 +143,44 @@ textarea {
   flex-direction: row;
 }
 textarea {
-  width: 100vh;
+  width: 135vh;
   height: 150px;
 }
+
+h5 {
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
+}
+.recent img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 4vh;
+  justify-content: center;
+}
+
 .feed {
   display: flex;
   flex-direction: column;
-  width: 100vh;
+  width: 135vh;
 }
 
 .filterbut {
-  background-color: #c8c9c7;
+  background-color: #888b8d;
 }
 
 .filterbut:focus {
-  background-color: #848583;
+  background-color: #3b3b3b;
 }
 
 .recent {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  width: 50vh;
+  width: 15vh;
+  height: 100vh;
+  background-color: #0076a5;
 }
 
 h4 {
@@ -354,7 +254,8 @@ h3 {
   text-align: left;
 }
 
-h5 { /* This one is for "Current Courses" */
+h5 {
+  /* This one is for "Current Courses" */
   font-size: 20;
   color: white;
 }

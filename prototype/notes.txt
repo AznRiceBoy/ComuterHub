@@ -1,24 +1,4 @@
-I don't think that we have the time to add everything in here at this point, so I put biggest changes to make at the top.
-
-Issues:
-Recent feed can be removed.
-Arrow to map should be on the right of each page where the hamburger menu slides out.
 
 Offers and Requests should have either different color text or different color backgrounds to distinguish them from each other on the post feed.
 We should have sample posts. Some offers and some requests.
 
-On the Make a Post page (offerrequest.html), the text to mark the post as an "offer" or "request" is too bright for the background.
-
-
-Missing features:
-There is no box to send a message on the messages page. We cannot switch to other people and see messages with them.
-We also cannot click on a post from the feed and send them a message as we had intended with our earlier prototypes.
-
-
-Minor issues:
-The profile box on the Make a Post page (offerrequest) is slightly smaller than the other pages.
-
-On the Make a Post page (offerrequest), the boxes are awkwardly left-aligned. I don't know how to fix that.
-
-On the Make a Post page (offerrequest), it says That we are on the "Make a Post" page right under the "Make a Post" button.
-Either we should remove the button on that page, or grey it out and keep the page title.

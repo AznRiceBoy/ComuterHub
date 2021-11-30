@@ -13,13 +13,11 @@
 <body>
     <div class="topbar">
         <div class="topbar-left">
-           <a href = "./home.html"> <img src="LMUlogo.png" alt="LMU Logo" width="122" height="50"></a>
+           <a href = "my.lmu.edu"> <img src="LMUlogo.png" alt="LMU Logo" width="122" height="50"></a>
             <h1>Commuter Hub</h1>
         </div>
         <div class="topbar-center">
             <div class="topbar-button">
-                <button type="button" class="topbutton"><a href = "./offerrequest.html" >Make a Post</a></button>
-
             </div>
         </div>
         <div class="topbar-right">
@@ -70,30 +68,37 @@
             <div class = "ROMessages">
                 <div class="selection">Requests: 3</div>
                 <div class="selection">Offer: 4</div>
-                <div class="selection-messages"><a href = "./messages.html" style="color: white; font-weight: 400;" >Messages (3)</a></div>
+                <div class="selection-messages"><a href = "./messages1.html" style="color: white; font-weight: 400;" >Messages (3)</a></div>
             </div>
-            <div class="center"><button><a href=home.html>Back to Feed</a></button></div>
+            <div class="center"><button class="back"><a href=home.html class="back">Back to Feed</a></button></div>
 
         </div>
         <div class="feed">
             <div class="title">
                 Messages
             </div>
+            <a href="messages1.html" class="move">
             <div class="users">
                 <img src="https://lh3.googleusercontent.com/a-/AOh14Gh-md4SXGM_8J56mTjJO_xURcaRYpOSNw_1Pu8xkA=s83" alt="Avatar">
                 <div class="name">Louis Nguyen</div>
                 <span class="user-preview">11:05am</span>
             </div>
+            </a>
+            <a href="messages2.html" class="move">
             <div class="users">
                 <img src="https://static.independent.co.uk/2020/10/30/08/newFile-2.jpg?width=640&auto=webp&quality=75" alt="Avatar">
                 <div class="name">Paul Rudd</div>
+                <div class="mesprev"></div>
                 <span class="user-preview">1:59pm</span>
             </div>
+            </a>
+            <a href="messages3.html" class="move">
             <div class="users">
                 <img src="https://cbsnews1.cbsistatic.com/hub/i/2018/11/06/0c1af1b8-155a-458e-b105-78f1e7344bf4/2018-11-06t054310z-1334124005-rc1be15a8050-rtrmadp-3-people-sexiest-man.jpg" alt="Avatar">
                 <div class="name">Idris Elba</div>
                 <span class="user-preview">2:41pm</span>
             </div>
+            </a>
             <div class="users">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png" alt="Avatar">
             </div>
@@ -129,68 +134,39 @@
         <div class="title">Chat Message</div>
 
         <div class="text">
-        <img src="https://lh3.googleusercontent.com/a-/AOh14Gh-md4SXGM_8J56mTjJO_xURcaRYpOSNw_1Pu8xkA=s83" alt="Avatar" style="width:100%;">
-        <div class="mes">Hey man, I saws you need a ride to school on MWF @ 6pm, lets split the gas and i'll drive you there and back?</div>
+        <img src="https://static.independent.co.uk/2020/10/30/08/newFile-2.jpg?width=640&auto=webp&quality=75" alt="Avatar" style="width:100%;">
+        <div class="mes">Blah blah blah blah?</div>
         <span class="time-right">11:00am</span>
         </div>
 
         <div class="text darker">
         <img src="https://lh3.googleusercontent.com/ogw/ADea4I5Gi6RpqpxiqzwPndoSXKjNDMLMxRG6dXF4-hVrYg=s32-c-mo" alt="Avatar" class="right" style="width:100%;">
-        <div class="mes">Sweet! Let me my class gets out at 7:40pm, when does yours?</div>
+        <div class="mes">Blah blah blah blah blah blah blah blahblah blah blah blah blah blah blah!</div>
         <span class="time-left">11:01am</span>
         </div>
 
         <div class="text">
-        <img src="https://lh3.googleusercontent.com/a-/AOh14Gh-md4SXGM_8J56mTjJO_xURcaRYpOSNw_1Pu8xkA=s83" alt="Avatar" style="width:100%;">
-        <div class="mes">Same time, is 10$ a week okay? I get 26mpg in my car</div>
+        <img src="https://static.independent.co.uk/2020/10/30/08/newFile-2.jpg?width=640&auto=webp&quality=75" alt="Avatar" style="width:100%;">
+        <div class="mes">blah blah blah blah blah blah blah :(</div>
         <span class="time-right">11:02am</span>
         </div>
 
         <div class="text darker">
         <img src="https://lh3.googleusercontent.com/ogw/ADea4I5Gi6RpqpxiqzwPndoSXKjNDMLMxRG6dXF4-hVrYg=s32-c-mo" alt="Avatar" class="right" style="width:100%;">
-        <div class="mes">Sounds good, heres my number, keep me updated :) XXX XXX - XXXX</div>
+        <div class="mes">blah</div>
         <span class="time-left">11:05am</span>
+        </div>
+        <div class="text darker">
+        <img src="https://lh3.googleusercontent.com/ogw/ADea4I5Gi6RpqpxiqzwPndoSXKjNDMLMxRG6dXF4-hVrYg=s32-c-mo" alt="Avatar" class="right" style="width:100%;">
+        <div class="mes">blah blah</div>
+        <span class="time-left">11:05am</span>
+        </div>
+        <div class = "msgbox"> 
+            <input type="text" placeholder="Send a Message!">
+            <i class="fas fa-paper-plane"></i>
         </div>
     </div>
 </div>
-    <div class="menu">
-        <div class="menu-top">
-            <div class="menu-search">
-                <i class="search-icon fas fa-search"></i>
-                <input type="text" placeholder="Search">
-            </div>
-        </div>
-        <div class="menu-center">
-            <div class="menu-item">
-                <i class="fas fa-home"></i>
-                <span>Home</span>
-            </div>
-            <div class="menu-item">
-                <i class="fas fa-bullhorn"></i>
-                <span>Notifications</span>
-            </div>
-            <div class="menu-item">
-                <i class="fas fa-bookmark"></i>
-                <span>&nbsp; Saved</span>
-            </div>
-            <div class="menu-item">
-                <i class="fas fa-users"></i>
-                <span>Current Carpools</span>
-            </div>
-            <div class="menu-item">
-                <i class="fas fa-user-friends"></i>
-                <span>Profile</span>
-            </div>
-        </div>
-        <div class="menu-bottom">
-            <div class="menu-bottom-user">
-                <img src="https://lh3.googleusercontent.com/ogw/ADea4I5Gi6RpqpxiqzwPndoSXKjNDMLMxRG6dXF4-hVrYg=s32-c-mo"
-                    alt="user img">
-                <span>Ryan Nugget</span>
-            </div>
-            <i class="far fa-question-circle"></i>
-        </div>
-    </div>
     <script src="app.js"></script>
 </body>
 </html>
