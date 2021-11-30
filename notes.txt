@@ -1,0 +1,11 @@
+Arrow to map should be on the right of the page.
+
+"Messages (3)" button should be a different color. to show that it is a button.
+
+Current Courses on messages page should be bold.
+
+Recent feed can be removed.
+
+Hamburger menu and options can be removed.
+
+Offers and Requests should have either different color text or different color backgrounds to distinguish them from each other.
